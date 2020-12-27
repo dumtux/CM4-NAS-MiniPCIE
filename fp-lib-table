@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/LIBS/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "SD")(type "KiCad")(uri "${KIPRJMOD}/LIBS/SD")(options "")(descr ""))
+)
