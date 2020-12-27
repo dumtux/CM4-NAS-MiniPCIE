@@ -1,4 +1,4 @@
-# Rapberry PI compute module 4 NAS PCB (for using JLCPCB.com)
+# Rapberry PI compute module 4 NAS PCB for using JLCPCB.com. (pre-test version)
 
 General view of PCB based on processing gbr files on JLCPCB.com
 
@@ -7,3 +7,15 @@ General view of PCB based on processing gbr files on JLCPCB.com
 Main purpose of design is to make NAS with more reliable SATA connection comparing to USB-to-SATA converters. SATA controllers can be connected through MiniPCIe slot. There are variety of cards in market, mainly my intend was to use this for 2 SATA (see picture below). This is half size card. Cards for 4 SATA with RAID controller also can be connected. 
 
 ![card](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/MiniPCIecard.png)
+
+## Sockets on PCB
+- MiniPCIe slot (designed for hlaf-size cards)
+- HDMI in order to use device as media player
+- Gigabit LAN
+- SD card slot for using CM4’s without eMMC
+- USB A 2.0 socket for connecting periphery like Zigbee.
+- MicroUSB for installing firmware to CM4 and power supply.
+All sockets placed on top edge of PCB for more reliable use and easy design of 3D print case.
+
+## Differential lines
+*PCB was designed by a newcomer. All steps made are listed below. This section is very important and risky. Mistakes can be made.  90 R and 100R impedance differential lines are used.Calculations of differential lines are made using JLCPCB internal [calculator](https://cart.jlcpcb.com/impedanceCalculation)*
