@@ -20,6 +20,12 @@ All sockets placed on top edge of PCB for more reliable use and easy design of 3
 ## Differential lines
 *PCB was designed by a newcomer. All steps made are listed below. This section is very important and risky. Mistakes can be made.  90 R and 100R impedance differential lines are used.Calculations of differential lines are made using JLCPCB internal [calculator](https://cart.jlcpcb.com/impedanceCalculation)*
 
-Results of calculation - [90R](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/JLCPCB%20Impedance%2090R.png) [100R](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/JLCPCB%20Impedance%20100R.png)
+Results of calculation - [90R](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/JLCPCB%20Impedance%2090R.png) and [100R](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/JLCPCB%20Impedance%20100R.png)
 
+Those results put in KiCAD.
+![KiCAD_Layers] (https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/KiCAD%20Layers.png)
+
+JLC7628 [Stackup](https://cart.jlcpcb.com/impedance) used all settings transfered to [KiCAD stackup](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/KiCAD%20Stack.png)
+
+All vias minimal diameter is 0.45 as price will be much higher for VIAs of less size.
 
