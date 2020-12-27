@@ -59,23 +59,23 @@ Left side of board has GPIO connector and small connector for selecting level of
 
 ### Service conections and LEDs
 There is a connector with following signals
--nRPIBOOT
--PI_POWER_LED
--Global_EN
--nEXTRST
--Analog_P1
--Analog_P0
--RUN_PG
--PI_N_LED
+- nRPIBOOT
+- PI_POWER_LED
+- Global_EN
+- nEXTRST
+- Analog_P1
+- Analog_P0
+- RUN_PG
+- PI_N_LED
 
 ### Other connectors
 - USG_OTG connector used to connect USB_OTG_ID pin of CM4 for installing firmware to eMMC. 
 - USB hub connecor Connector with 4 pins GND, D+, D-, +5V can be used to connect external USB hub if you need it in your project.
 - MiniPCIe USB D+/D-. MiniPCIe slot also has connections for D+ and D- another connector used for it. This is not connected to CM4 D+/D- lines.
+- One GND connector just for the case.
 
 ### KiCAD view
 Front
-
 ![Front](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/KiCAD%20PCB%20Front.png)
 
 Back
