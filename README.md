@@ -75,7 +75,7 @@ There is a connector with following signals
 - One GND connector just for the case.
 
 ### GBR files
-GBR files are prepared in [FAB](https://github.com/olvint/CM4-NAS-MiniPCIE/tree/main/FAB) folder. Also archive prepared FAB_JLCPCB.zip for making order. *Please note that you need to tur on option **Impedance** and select JLCPCB7628 stackup*
+GBR files are prepared in [FAB](https://github.com/olvint/CM4-NAS-MiniPCIE/tree/main/FAB) folder. Also archive prepared FAB_JLCPCB.zip for making order. *Please note that you need to turn on option **Impedance** and select JLCPCB7628 stackup*
 
 
 ### KiCAD view
