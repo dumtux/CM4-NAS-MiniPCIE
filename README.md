@@ -74,6 +74,10 @@ There is a connector with following signals
 - MiniPCIe USB D+/D-. MiniPCIe slot also has connections for D+ and D- another connector used for it. This is not connected to CM4 D+/D- lines.
 - One GND connector just for the case.
 
+### GBR files
+GBR files are prepared in [FAB](https://github.com/olvint/CM4-NAS-MiniPCIE/tree/main/FAB) folder. Also archive prepared FAB_JLCPCB.zip for making order. *Please note that you need to tur on option **Impedance** and select JLCPCB7628 stackup*
+
+
 ### KiCAD view
 Front
 ![Front](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/KiCAD%20PCB%20Front.png)
