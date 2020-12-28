@@ -2,7 +2,7 @@
 
 # General view of PCB based on processing gbr files on JLCPCB.com
 
-![PCB_view](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/JLC%20PCB%20gbr%20render%20small.png)
+![PCB_view](https://raw.githubusercontent.com/olvint/CM4-NAS-MiniPCIE/main/PICS/JLC%20PCB%20gbr%20render.png)
 
 Main purpose of design is to make NAS with more reliable SATA connection comparing to USB-to-SATA converters. SATA controllers can be connected through MiniPCIe slot. There are variety of cards in market, mainly my intend was to use this for 2 SATA (see picture below). This is half size card. Cards for 4 SATA with RAID controller also can be connected. 
 
@@ -35,7 +35,7 @@ All sockets placed on top edge of PCB for more reliable use and easy design of 3
 
 ## Footprints
 All sockets footprints selected to be most common. In standard library of  KiCAD I did not found suitable MicroSD socket. And ofcource footprint of CM4 is also taken from Raspberry PI CM4 IO borad. All external footprints are in folder LIBS.
-I wanted to install all sockets on one side of the board and there was not much space. MicroUSB socket I put on other side of the board below HDMI. I assumed that for installing firmware you do not need HDMI. May be it is better to put in below microSD card?
+I wanted to install all sockets on one side of the board and there was not much space. MicroUSB socket I put on other side of the board below MicroSD socket.
 
 ## On board connectors.
 ### Power input. 
@@ -83,7 +83,7 @@ Back
 
 
 
-
+Update 28.12.2020 - Rerouted some tracks. Moved MicroUSB below MicroSD.
 
 
 
