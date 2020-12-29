@@ -42,7 +42,7 @@ I wanted to install all sockets on one side of the board and there was not much 
 There are 2 connectors with 4 pins (GND, +12V, +5V, +3.3V) Connectors can be used for powering board and soldering cable for powering HDDs. 
 - +12 V is only used for HDD. Board has 2 interconnected pins, but level +12 V not used on board. MiniPCIe does not have +12V input.
 - +5V used for powering CM4 module and giving power to USB and HDMI. Two SMD resettable fuses installed to protect board from short circuit. 
-- +3.3 V used for powering PCI-to-SATA module. MiniPCIe slot has connection for another level of voltage.
+- +3.3 V used for powering PCI-to-SATA module. Nothing else.
 - 1.5 V. Special connector made above PCIe slot.  Generaly this level is not required. It is planned to use SATA module based on chip ASM1061 that has [Integrated 3.3V to 1.2V switch regulator](https://www.asmedia.com.tw/eng/e_show_products.php?cate_index=166&item=118). 
 
 Initial CM4 IO Borad has more copmplicated power system with different ICs for protecting not only from short circuit but, under voltage, overload etc.
