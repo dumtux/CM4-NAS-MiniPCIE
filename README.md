@@ -88,6 +88,7 @@ Back
 
 
 Update 28.12.2020 - Rerouted some tracks. Moved MicroUSB below MicroSD.
+Update 02.01.2021 - Rerouted a lot of tracks. Added beauty. 
 
 
 
